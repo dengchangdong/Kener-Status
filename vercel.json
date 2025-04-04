@@ -15,5 +15,12 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ]
+  ],
+  "env": {
+    "DATABASE_URL": "@kener_db_url",
+    "KENER_SECRET_KEY": "@kener_secret_key",
+    "RESEND_API_KEY": "@resend_api_key",
+    "RESEND_SENDER_EMAIL": "@resend_sender_email",
+    "ORIGIN": "@kener_origin"
+  }
 }
